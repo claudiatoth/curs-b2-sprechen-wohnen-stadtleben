@@ -75,10 +75,10 @@
             html += h;
         }
         if (typeof ex3Data !== 'undefined') {
-            html += fillInBlock('Übung 3 — Vocabular Wohnen & Stadtleben în context (substantive cheie)', 'Jobangebot, Gehalt, Probezeit, Aufstiegschancen, Arbeitszeiten, Risiko, Gehaltserhöhung, Vertrag — cuvinte cheie pentru descrierea situației.', ex3Data);
+            html += fillInBlock('Übung 3 — Vocabular în context (Lückentext)', 'Completați fiecare propoziție cu termenul corect din vocabularul lecției.', ex3Data);
         }
         if (typeof ex4Data !== 'undefined') {
-            html += fillInBlock('Übung 4 — Reconstruiește dialogul (Cursant A vrea să plece ↔ Cursant B avertizează)', 'Dialog tipic B2: A explică oferta, B reacționează cu îngrijorare diplomatică și propune alternativa negocierii interne.', ex4Data);
+            html += fillInBlock('Übung 4 — Conectori și expresii pentru dialog (Lückentext)', 'Completați cu structura corectă: conectori, Redemittel și expresii pentru opinie și argumentare.', ex4Data);
         }
         if (typeof ex5Data !== 'undefined') {
             html += fillInBlock('Übung 5 — Expresii pentru dialog B2 (sugestie + grijă + concluzii)', 'Formule cheie pentru argumentare echilibrată: „An deiner Stelle würde ich..." · „Hast du daran gedacht, dass...?" · „Ich verstehe deine Bedenken." · „Auf der einen Seite... auf der anderen Seite..." · „Lass uns das in Ruhe besprechen."', ex5Data);
@@ -89,7 +89,7 @@
     function buildFlashcards() {
         const count = (typeof flashcardsData !== 'undefined') ? flashcardsData.length : 0;
         let html = `<h1 class="chapter new-section">📇 3. Vocabular complet (Flashcards)</h1>
-            <p style="margin-bottom:10px">Cele <strong>${count} carduri</strong> ale lecției — 5 ofertă/decizie + 5 salariu/beneficii + 5 PRO schimbare + 5 CONTRA/riscuri + 4 avantaje job actual + 4 alternative/negociere + 4 expresii dialog.</p>
+            <p style="margin-bottom:10px">Cele <strong>${count} carduri</strong> ale lecției — vocabularul esențial grupat pe categorii tematice pentru proba orală (Sprechen Teil 2).</p>
             <div class="flashcards-grid">`;
         if (typeof flashcardsData !== 'undefined') {
             flashcardsData.forEach(card => {
