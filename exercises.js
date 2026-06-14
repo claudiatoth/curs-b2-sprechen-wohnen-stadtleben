@@ -110,7 +110,7 @@ function buildEx2() {
             <div class="exercise-item">
                 <span class="exercise-number">${index + 1}</span>
                 <div class="input-group">
-                    <label><strong style="color:#6b7280; font-size:1.05rem;">${item.ro}</strong></label>
+                    <label><strong style="color:#5A5147; font-size:1.05rem;">${item.ro}</strong></label>
                     <input type="text" id="ex2-${item.id}" placeholder="traducere DE...">
                 </div>
                 <div class="feedback" id="ex2-f${item.id}"></div>
@@ -268,7 +268,7 @@ function buildEx5() {
             Scrie 4-6 propoziții (60-100 cuvinte) în germană pentru una dintre situațiile de mai jos. Sunt situații tipice pentru <strong>Sprechen Teil 2</strong> (dialog pe perechi cu argumente).
         </div>
 
-        <div class="theory-box" style="background:#fef3c7; border-color:#f59e0b;">
+        <div class="theory-box" style="background:#F5F0E8; border-color:#D4A574;">
             <h4>📋 Alege UNA dintre cele 3 teme:</h4>
             <ol>
                 <li><strong>„Stadt oder Land — wo lebt es sich besser?"</strong> Argumentează care e mai bine cu minim 2 motive concrete + un exemplu personal.</li>
@@ -296,7 +296,7 @@ function buildEx5() {
         <div style="margin: 14px 0; padding: 16px 20px; background:#ecfdf5; border: 2px solid #10b981; border-radius:10px; text-align:center;">
             <p style="margin: 0 0 10px; color:#065f46; font-weight:600;">📨 Trimite textul tău spre corectură (Annette îți răspunde personal cu feedback)</p>
             <a href="https://forms.gle/2r1RavMhMW7d91ch9" target="_blank" rel="noopener" style="display:inline-block; background:linear-gradient(135deg, #10b981 0%, #059669 100%); color:white; padding:12px 28px; border-radius:8px; text-decoration:none; font-weight:700; font-size:1rem;">📨 Trimite spre corectură</a>
-            <p style="margin: 8px 0 0; color:#6b7280; font-size:0.85rem; font-style:italic;">(formularul deschis în tab nou — în el alegi „Sprechen B2 — Wohnen & Stadtleben")</p>
+            <p style="margin: 8px 0 0; color:#5A5147; font-size:0.85rem; font-style:italic;">(formularul deschis în tab nou — în el alegi „Sprechen B2 — Wohnen & Stadtleben")</p>
         </div>
     `;
 }
